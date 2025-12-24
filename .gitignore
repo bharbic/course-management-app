@@ -1,0 +1,44 @@
+# Gradle build folders
+CourseAPI/build/
+CourseAPI/.gradle/
+
+# IntelliJ project files
+*.iml
+*.idea/
+
+# Spring Boot
+CourseAPI/out/
+CourseAPI/logs/
+CourseAPI/*.log
+
+# Secrets
+CourseAPI/src/main/resources/application*.properties
+CourseAPI/src/main/resources/application*.yml
+CourseAPI/src/main/resources/application*.yaml
+
+# ---------------------------
+# Frontend (Vite + React + TypeScript)
+# ---------------------------
+
+CourseWebApp/node_modules/
+CourseWebApp/dist/
+CourseWebApp/.env*
+CourseWebApp/.vite/
+
+# ---------------------------
+# Docker
+# ---------------------------
+
+# Docker generated files
+docker-compose.override.yml
+**/tmp/
+**/logs/
+
+# ---------------------------
+# OS / Editor
+# ---------------------------
+
+# Windows
+Thumbs.db
+desktop.ini
+

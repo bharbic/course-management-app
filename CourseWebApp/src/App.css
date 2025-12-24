@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+#root {
+
+}
+
+a {
+    @apply no-underline;
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f4;
+
+}
+
+a {
+    @apply no-underline;
+    text-decoration: none;
+}
