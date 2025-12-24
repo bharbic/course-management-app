@@ -1,11 +1,11 @@
 # Course Management App
 Full stack Vite.js (React + Typescript + Tailwind), Spring Boot and PostgreSQL web app.
 
-Setup
+## Setup
 
 Download the latest release, open CMD in the folder and simply docker-compose build up. If your computer's running any other instance of Vite, Springboot or Postgres locally it overrides the containers and keeps editing locally. Postgres is the most guilty of this, as I had to disable the PostgreSQL start-up service multiple times throughout development. Hot reload/dev mode is enabled for Vite only, since Spring DevTools is inconsistent (doesn't auto-update mapping, pathing and configs without a manual restart).
 
-# Functionality (more like known issues)
+## Functionality (more like known issues)
 
 Almost all functionality is, well, functional:
 
