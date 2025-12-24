@@ -9,8 +9,8 @@ Download the latest release, open CMD in the folder and simply docker-compose bu
 
 Almost all functionality is, well, functional:
 
-    Showing courses and filtering them (by checking off the box) by users participating in them causes an 404 error when fetched, even though the @GetMapping and fetchCourses() getters communicate well.
-    Drag and drop media upload/download and previewing work stellar, only thing missing is the image preview when uploaded into the picture container.
-    German translation is completely broken in course_details.tsx due to the component using hardcoded english keywords and character delimiters making it hard to implement in a short time.
+- Showing courses and filtering them (by checking off the box) by users participating in them causes an 404 error when fetched, even though the @GetMapping and fetchCourses() getters communicate well.
+- Drag and drop media upload/download and previewing work stellar, only thing missing is the image preview when uploaded into the picture container.
+- German translation is completely broken in course_details.tsx due to the component using hardcoded english keywords and character delimiters making it hard to implement in a short time.
 
 Thank you for reading!
